@@ -1,0 +1,29 @@
+.mycard {
+    width: 300px;
+}
+
+.mycarousel {
+    height: 450px;
+    width: 100%;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 1000px) {
+    .mycarousel {
+        width: 100%;
+        height: 250px !important;
+        overflow: hidden;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .mycarousel {
+        width: 100%;
+        height: auto !important;
+        overflow: hidden;
+    }
+}
+
+footer{
+background-color:bisque;
+}
